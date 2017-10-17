@@ -19,4 +19,6 @@ RUN chown -R www-data.www-data ${DOCUMENT_ROOT}
 EXPOSE 80
 EXPOSE 443
 
+VOLUME ${DOCUMENT_ROOT}
+
 CMD service hhvm start && nginx
