@@ -5,7 +5,7 @@ RUN rm -rf ${DOCUMENT_ROOT}/*
 RUN wget -O wordpress.tar.gz https://wordpress.org/latest.tar.gz
 RUN tar -xzvf /wordpress.tar.gz --strip-components=1 --directory ${DOCUMENT_ROOT}
 
-RUN wget -O sqlite-plugin.zip https://downloads.wordpress.org/plugin/sqlite-integration.1.7.zip
+RUN wget -O sqlite-plugin.zip https://downloads.wordpress.org/plugin/sqlite-integration.1.8.zip
 
 RUN apt-get update
 RUN apt-get install -y unzip
