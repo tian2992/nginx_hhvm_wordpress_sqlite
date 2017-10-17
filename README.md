@@ -14,6 +14,6 @@ This repository contains **Dockerfile** of Wordpress on Nginx using Sqlite inste
 
 After few seconds, open `http://<host>` to see the wordpress install page.
 
-###Build from Dockerfile
+### Build from Dockerfile
     docker build -t="dorwardv/nginx_hhvm_wordpress_sqlite" github.com/dorwardv/nginx_hhvm_wordpress_sqlite
 
